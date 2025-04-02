@@ -1,6 +1,6 @@
 # FlowForge - Workflow Automation Platform
 
-![FlowForge Logo](https://via.placeholder.com/150x50?text=FlowForge) <!-- Replace with actual logo -->
+![alt text](image.png) <!-- Replace with actual logo -->
 
 **Automate Your Workflows with Ease** - Cutting-edge automation solutions to streamline business processes.
 
