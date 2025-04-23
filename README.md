@@ -1,10 +1,9 @@
-# FlowForge - Workflow Automation Platform
+# Myle Tech Solutions - Business Automation Platform
 
-<!-- Replace with actual logo -->
-
-**Automate Your Workflows with Ease** - Cutting-edge automation solutions to streamline business processes.
+Transform Your Business with Intelligent Automation - Tailored solutions to streamline operations using Microsoft Power Platform, Dynamics 365, and Zapier.
 
 ## Table of Contents
+
 - [Project Overview](#project-overview)
 - [Team Members](#team-members)
 - [Tech Stack](#tech-stack)
@@ -17,148 +16,188 @@
 
 ## Project Overview
 
-FlowForge is a workflow automation platform that helps businesses:
-- Automate repetitive tasks with drag-and-drop interface
-- Integrate AI for smart decision making
-- Connect with popular third-party tools
-- Monitor performance with analytics dashboards
+Myle Tech Solutions is a business automation platform that empowers organizations across East Africa to:
 
-**Key Features:**
-- Process automation
-- AI-powered workflows
-<!-- - Enterprise-grade security-->
-- 24/7 global support
+- Streamline workflows with low-code automation tools
+- Leverage AI for intelligent decision-making
+- Integrate with third-party systems like Zapier and Thoughtly
+- Gain insights through Power BI analytics dashboards
+
+### Key Features:
+
+- Process automation with Power Automate
+- AI-powered virtual assistants via Copilot Studio
+- Custom app development with Power Apps
+- Comprehensive Dynamics 365 solutions
+- Newsletter subscription for updates
+- Real-time performance metrics (clients served, hours saved)
 
 ## Team Members
 
-| Role              | Name            | Responsibilities                      | Contact                     |
-|-------------------|-----------------|---------------------------------------|-----------------------------|
-| Co-Founder  | Girishom Ngoze  | Project vision, business strategy    | ngonzegirishom@gmail.com     |
-| Co-Founder  | Tertius Kabugi  | Technical architecture, development  | kingkabugi@gmail.com    |
-| Co-Founder  | Grace Wanjiku   | Operations, client relations         | wanjiku.grace9@gmail.com   |
-| Co-Founder  | Ian Mugambi     | Product design, UX                   | kinotimoe@gmail.com   |
+| Role | Name | Responsibilities | Contact |
+|------|------|-----------------|---------|
+| Co-Founder & CEO | Girishom Ngoze | Project vision, business strategy | ngonzegirishom@gmail.com |
+| Co-Founder & CTO | Tertius Kabugi | Technical architecture, development | kingkabugi@gmail.com |
+| Co-Founder & COO | Grace Wanjiku | Operations, client relations | wanjiku.grace9@gmail.com |
+| Co-Founder & CPO | Ian Mugambi | Product design, UX | kinotimoe@gmail.com |
 
 ## Tech Stack
 
-**Frontend:**
-- HTML5, CSS3 (with Sass)
-- JavaScript (ES6+)
+### Frontend:
+- HTML5, CSS3 (with custom styles and animations)
+- JavaScript (ES6+, for interactivity and form handling)
+- Font Awesome for icons
+- Google Fonts (Inter, Playfair Display)
 
-<!-- **Backend:**
-- [Node.js/Python/other]
-- [Database system]
-- [API framework]
-
-**DevOps:**
+### Tools:
 - GitHub for version control
-- Netlify/Vercel for hosting
-- CI/CD pipeline -->
+- GitHub Pages for hosting
+- Visual Studio Code for development
 
 ## Getting Started
 
+### Prerequisites
+- A modern web browser (Chrome, Firefox, Edge)
+- Git installed locally
+- A code editor (e.g., VS Code)
+
 ### Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-org/flowforge.git
-   cd flowforge
-   ```
+
+Clone the repository:
+```bash
+git clone https://github.com/your-org/myle-tech-solutions.git
+cd myle-tech-solutions
+```
+
+Open index.html in a browser to view the site locally, or use a local server:
+```bash
+npx live-server
+```
 
 ## Project Structure
 
-```plaintext
-flowforge/
+```
+myle-tech-solutions/
 │
 ├── index.html          # Main HTML file for the website
-├── styles.css          # CSS file with all styles and animations
-├── script.js           # JavaScript file for interactivity (slider, animations, form handling)
-├── images/  
+├── styles.css          # CSS file with styles and animations
+├── script.js           # JavaScript for interactivity (slider, counters, forms)
+├── images/             # Images for logo, team, case studies, etc.
 └── README.md           # This file
 ```
 
-# Contributing
+## Contributing
 
 To ensure smooth collaboration, please follow these guidelines:
 
 ### Workflow
 
 #### Branch Naming Convention:
-
-- **feature/[name]** - New features
-- **bugfix/[name]** - Bug fixes
-- **hotfix/[name]** - Critical production fixes
-- **docs/[name]** - Documentation updates
+- `feature/[name]` - New features (e.g., feature/newsletter-form)
+- `bugfix/[name]` - Bug fixes (e.g., bugfix/form-validation)
+- `hotfix/[name]` - Critical production fixes
+- `docs/[name]` - Documentation updates (e.g., docs/readme-update)
 
 #### Create a Branch
-Before making changes, create a new branch for your work:
-
+Before making changes, create a new branch:
 ```bash
 git checkout -b feature/your-feature-name
 ```
 
-**Example:**
+Example:
 ```bash
 git checkout -b feature/add-newsletter-functionality
 ```
 
-### Pull Request Process:
+#### Pull Request Process:
+- Create a PR from your feature branch to develop.
+- Assign at least one reviewer (@GirishomNgoze, @TertKabugi, @CodeGraceWanjiku, @Mugambidev).
+- Ensure PR passes all CI checks (if configured).
+- Include screenshots for UI changes.
+- Link to related issues in the PR description.
 
-1. Create PR from your feature branch to `develop`.
-2. Assign at least one reviewer.
-3. PR must pass all CI checks.
-4. Include screenshots for UI changes.
-5. Link to related issues.
-
-### Commit Message Guidelines:
-
-```plaintext
+#### Commit Message Guidelines:
+```
 type(scope): brief description
 
 [Optional longer description]
 ```
 
-**Types:** `feat`, `fix`, `docs`, `style`, `refactor`, `test`, `chore`
+Types: feat, fix, docs, style, refactor, test, chore
 
+Example:
+```bash
+git commit -m "feat(footer): add newsletter subscription form
+
+- Implemented form with client-side validation
+- Added mock API integration
+- Styled for responsive design"
+```
 
 #### Make Changes
 - Work on your feature or bug fix in your branch.
-- Ensure your code follows the existing style (e.g., consistent indentation, comments where necessary).
+- Follow existing code style (e.g., 2-space indentation, descriptive comments).
 
-### Stage and Commit
-
-Stage your changes:
+#### Stage and Commit
+Stage changes:
 ```bash
 git add .
 ```
 
 Commit with a descriptive message:
 ```bash
-git commit -m "Add newsletter subscription functionality to footer"
+git commit -m "feat(contact): add client-side form validation"
 ```
 
-### Push to GitHub
-Push your branch to the remote repository:
+#### Push to GitHub
+Push your branch:
 ```bash
 git push origin feature/your-feature-name
 ```
 
-### Create a Pull Request (PR)
-1. Go to the repository on GitHub.
-2. You’ll see a prompt to create a pull request for your branch. Click **"Compare & pull request."**
-3. Add a description of your changes and tag all team members (@GirishomNgoze, @TertKabugi, @CodeGraceWanjiku, @Mugambidev) for review.
-4. Submit the PR.
+#### Create a Pull Request
+- Go to the repository on GitHub.
+- Click "Compare & pull request" for your branch.
+- Add a detailed description and tag team members for review.
+- Submit the PR.
 
-### Review and Merge
-- At least one other team member should review the PR.
-- Address any feedback by making additional commits to the same branch.
-- Once approved, merge the PR into the `main` branch and delete the feature branch.
+#### Review and Merge
+- At least one team member must review and approve the PR.
+- Address feedback by pushing additional commits to the same branch.
+- Merge into main and delete the feature branch after approval.
 
-## Best Practices
-
-- **Small Commits:** Make small, focused commits with clear messages.
-- **Pull Before Pushing:** Always pull the latest changes from `main` before starting new work:
+### Best Practices
+- **Small Commits**: Keep commits focused and descriptive.
+- **Pull Before Pushing**: Sync with main before starting new work:
   ```bash
   git pull origin main
   ```
-- **Test Changes:** Test your changes locally before pushing.
-- **Avoid Conflicts:** Communicate with the team if you’re working on the same file to avoid merge conflicts.
-- **File Paths:** Ensure all file paths (e.g., for images) are relative and work on GitHub Pages.
+- **Test Locally**: Verify changes in a browser before pushing.
+- **Avoid Conflicts**: Coordinate with the team when editing shared files.
+- **Relative Paths**: Use relative paths for images (e.g., /images/myle-logo.jpg).
+
+## Deployment
+
+The website is deployed using GitHub Pages:
+
+- Push changes to the main branch.
+- Ensure GitHub Pages is enabled in the repository settings (source: main branch, /root folder).
+- Access the site at https://your-org.github.io/myle-tech-solutions.
+
+For local testing, use:
+```bash
+npx live-server
+```
+
+## Roadmap
+
+- [x] Implement newsletter subscription form
+- [x] Add client-side validation for contact form
+- [ ] Enhance SEO with meta tags and structured data
+- [ ] Integrate blog section for automation insights
+- [ ] Add multi-language support
+- [ ] Implement user authentication for demo requests
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
