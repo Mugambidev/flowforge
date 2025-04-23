@@ -9,7 +9,6 @@
   - Neutrals: Clean, sophisticated base
 */
 :root {
-  /* Updated Color Scheme - professional with warm accents */
   --primary: #1e3a8a;       /* Deeper, more elegant blue */
   --secondary: #2563eb;     /* Brighter blue for hover states */
   --accent: #d97706;        /* Richer amber for warmth */
@@ -27,21 +26,16 @@
   --transition: all 0.3s ease;
   --border-radius: 8px;
   --border-radius-lg: 12px;
-  --max-width: 1200px;     /* Maximum content width */
+  --max-width: 1200px;
 }
 
-/* 
-  Base Reset & Typography
-  - Ensures consistent starting point across browsers
-  - Sets up typography hierarchy
-*/
+/* Base Reset & Typography */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Modern font stack with elegant pairing */
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 
               Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
@@ -50,23 +44,18 @@ body {
   color: var(--dark);
   background-color: var(--light);
   overflow-x: hidden;
-  font-size: 1rem; /* 16px base */
+  font-size: 1rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Responsive base font sizing */
 @media (min-width: 768px) {
   body {
-    font-size: 1.05rem; /* Slightly larger text on bigger screens */
+    font-size: 1.05rem;
   }
 }
 
-/* 
-  Typography Scale
-  - Uses REM units for scalability
-  - Creates clear visual hierarchy
-*/
+/* Typography Scale */
 h1, h2, h3, h4, h5 {
   font-family: 'Playfair Display', serif;
   line-height: 1.2;
@@ -76,27 +65,17 @@ h1, h2, h3, h4, h5 {
   letter-spacing: 0.5px;
 }
 
-h1 { 
-  font-size: 2.5rem; /* 40px */
-}
-h2 { 
-  font-size: 2rem; /* 32px */
-}
-h3 { 
-  font-size: 1.5rem; /* 24px */
-}
-h4 { 
-  font-size: 1.25rem; /* 20px */
-}
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.5rem; }
+h4 { font-size: 1.25rem; }
 
-/* Paragraph styling with optimal readability */
 p {
   margin-bottom: 1.25rem;
   color: var(--gray);
-  max-width: 70ch; /* Optimal line length for readability */
+  max-width: 70ch;
 }
 
-/* Links with subtle hover effect */
 a {
   text-decoration: none;
   color: var(--primary);
@@ -109,28 +88,20 @@ a:hover {
   text-decoration: underline;
 }
 
-/* 
-  Layout Container
-  - Centers content with max-width
-  - Provides consistent padding
-*/
+/* Layout Container */
 .container {
   width: 100%;
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: 0 1.25rem; /* 20px */
+  padding: 0 1.25rem;
 }
 
-/* 
-  Utility Classes
-  - Reusable helper classes for common patterns
-*/
+/* Utility Classes */
 .text-center { text-align: center; }
 .text-accent { color: var(--accent); }
 .bg-light { background-color: var(--light); }
 .bg-white { background-color: var(--white); }
 
-/* Margin utilities - responsive */
 .mt-1 { margin-top: 0.5rem; }
 .mt-2 { margin-top: 1rem; }
 .mt-3 { margin-top: 1.5rem; }
@@ -140,17 +111,12 @@ a:hover {
 .mb-3 { margin-bottom: 1.5rem; }
 .mb-4 { margin-bottom: 2rem; }
 
-/* Responsive margin adjustments */
 @media (min-width: 768px) {
   .mt-md-3 { margin-top: 1.5rem; }
   .mb-md-3 { margin-bottom: 1.5rem; }
 }
 
-/* 
-  Buttons
-  - Primary and secondary variants
-  - Consistent interactive states
-*/
+/* Buttons */
 .btn {
   display: inline-flex;
   align-items: center;
@@ -243,11 +209,7 @@ a:hover {
   100% { transform: scale(1); }
 }
 
-/* 
-  Header & Navigation
-  - Fixed position for accessibility
-  - Responsive menu with hamburger
-*/
+/* Header & Navigation */
 header {
   background: var(--gradient);
   color: var(--white);
@@ -264,7 +226,6 @@ header.scrolled {
   padding: 0.5rem 0;
 }
 
-/* Flex-based navigation layout */
 nav {
   display: flex;
   justify-content: space-between;
@@ -273,7 +234,6 @@ nav {
   position: relative;
 }
 
-/* Logo styling */
 .logo-image {
   height: 40px;
   width: auto;
@@ -284,7 +244,6 @@ header.scrolled .logo-image {
   filter: brightness(0) saturate(100%) invert(10%) sepia(50%) saturate(500%) hue-rotate(200deg);
 }
 
-/* Desktop navigation links */
 .nav-links {
   display: flex;
   gap: 1.5rem;
@@ -298,7 +257,6 @@ header.scrolled .logo-image {
   padding: 0.5rem 0;
 }
 
-/* Animated underline effect */
 .nav-links a::after {
   content: '';
   position: absolute;
@@ -319,7 +277,6 @@ header.scrolled .logo-image {
   text-decoration: none;
 }
 
-/* Mobile menu toggle */
 .hamburger {
   display: none;
   background: none;
@@ -331,7 +288,6 @@ header.scrolled .logo-image {
   padding: 0.5rem;
 }
 
-/* Hide desktop CTA on mobile */
 .desktop-cta {
   display: inline-flex;
 }
@@ -340,11 +296,7 @@ header.scrolled .logo-image {
   display: none;
 }
 
-/* 
-  Hero Section
-  - Full-width with background image and overlay
-  - Centered content with clear CTA
-*/
+/* Hero Section */
 .hero {
   padding: 10rem 0 5rem;
   text-align: center;
@@ -394,11 +346,7 @@ header.scrolled .logo-image {
   flex-wrap: wrap;
 }
 
-/* 
-  Section Styling
-  - Consistent padding and spacing
-  - Centered headings with fade-in animation
-*/
+/* Section Styling */
 .section {
   padding: 5rem 0;
   position: relative;
@@ -423,7 +371,6 @@ header.scrolled .logo-image {
   display: inline-block;
 }
 
-/* Decorative underline for section titles */
 .section-title h2::after {
   content: '';
   position: absolute;
@@ -441,11 +388,7 @@ header.scrolled .logo-image {
   margin: 0 auto;
 }
 
-/* 
-  Features Grid
-  - Responsive card layout
-  - Hover effects with gradient border
-*/
+/* Features Grid */
 .features-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -502,11 +445,7 @@ header.scrolled .logo-image {
   margin-bottom: 0.75rem;
 }
 
-/* 
-  About Section
-  - Image/text split layout with timeline
-  - Responsive stacking
-*/
+/* About Section */
 .about-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -604,11 +543,7 @@ header.scrolled .logo-image {
   left: -10px;
 }
 
-/* 
-  Stats Section
-  - Full-width colored background with parallax
-  - Emphasis on key metrics
-*/
+/* Stats Section */
 .stats {
   background: url('https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
   background-attachment: fixed;
@@ -627,11 +562,6 @@ header.scrolled .logo-image {
   width: 100%;
   height: 100%;
   background: linear-gradient(135deg, rgba(30, 58, 138, 0.8), rgba(37, 99, 235, 0.6));
-}
-
-.stats-content {
-  position: relative;
-  z-index: 1;
 }
 
 .stats-grid {
@@ -680,11 +610,7 @@ header.scrolled .logo-image {
   opacity: 0.9;
 }
 
-/* 
-  Team Section
-  - Responsive grid of team members
-  - Hover overlay effect
-*/
+/* Team Section */
 .team-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -782,11 +708,7 @@ header.scrolled .logo-image {
   transform: translateY(-2px);
 }
 
-/* 
-  Testimonials
-  - Slider component with 3D hover effect
-  - Author attribution
-*/
+/* Testimonials */
 .testimonials-slider {
   position: relative;
   max-width: 800px;
@@ -815,10 +737,6 @@ header.scrolled .logo-image {
 @keyframes fadeIn {
   from { opacity: 0; }
   to { opacity: 1; }
-}
-
-.testimonial-content {
-  position: relative;
 }
 
 .testimonial-content::before,
@@ -921,11 +839,7 @@ header.scrolled .logo-image {
   transform: scale(1.2);
 }
 
-/* 
-  Contact Form
-  - Floating form effect with gradient border
-  - Input animations
-*/
+/* Contact Form */
 .contact-form {
   max-width: 600px;
   margin: 0 auto;
@@ -944,7 +858,8 @@ header.scrolled .logo-image {
 }
 
 .form-group input,
-.form-group textarea {
+.form-group textarea,
+.form-group select {
   width: 100%;
   padding: 1rem;
   border: 1px solid var(--light-gray);
@@ -966,7 +881,9 @@ header.scrolled .logo-image {
 .form-group input:focus + label,
 .form-group input:not(:placeholder-shown) + label,
 .form-group textarea:focus + label,
-.form-group textarea:not(:placeholder-shown) + label {
+.form-group textarea:not(:placeholder-shown) + label,
+.form-group select:focus + label,
+.form-group select:not([value=""]) + label {
   top: 0;
   font-size: 0.875rem;
   color: var(--primary);
@@ -975,7 +892,8 @@ header.scrolled .logo-image {
 }
 
 .form-group input:focus,
-.form-group textarea:focus {
+.form-group textarea:focus,
+.form-group select:focus {
   outline: none;
   border-color: var(--accent);
   box-shadow: 0 0 0 3px rgba(251, 191, 36, 0.2);
@@ -984,6 +902,22 @@ header.scrolled .logo-image {
 .form-group textarea {
   resize: vertical;
   min-height: 150px;
+}
+
+.form-group select {
+  appearance: none;
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="6"><path fill="%2364748b" d="M0 0h12L6 6z"/></svg>') no-repeat right 1rem center;
+}
+
+.error-message {
+  color: #dc2626;
+  font-size: 0.875rem;
+  display: none;
+  margin-top: 0.25rem;
+}
+
+.form-group.invalid .error-message {
+  display: block;
 }
 
 .form-submit {
@@ -1008,11 +942,7 @@ header.scrolled .logo-image {
   color: #22c55e;
 }
 
-/* 
-  Footer
-  - Multi-column layout with newsletter signup
-  - Social links and back-to-top button
-*/
+/* Footer */
 footer {
   background-color: var(--dark);
   color: var(--white);
@@ -1111,6 +1041,7 @@ footer::before {
 
 .newsletter-form {
   display: flex;
+  flex-direction: column;
   gap: 0.5rem;
   margin-top: 1rem;
 }
@@ -1125,6 +1056,11 @@ footer::before {
 
 .newsletter-form button {
   padding: 0.75rem 1.5rem;
+}
+
+.newsletter-form .form-success {
+  padding: 0.5rem;
+  font-size: 0.875rem;
 }
 
 .copyright {
@@ -1165,15 +1101,8 @@ footer::before {
   transform: translateY(-5px);
 }
 
-/* 
-  Responsive Breakpoints
-  - Mobile-first approach
-  - Progressive enhancement
-*/
-
-/* Medium devices (tablets, 768px and up) */
+/* Responsive Breakpoints */
 @media (max-width: 768px) {
-  /* Navigation becomes hamburger menu */
   .nav-links {
     position: fixed;
     top: 0;
@@ -1197,7 +1126,6 @@ footer::before {
     display: block;
   }
   
-  /* Show mobile CTA, hide desktop CTA */
   .desktop-cta {
     display: none;
   }
@@ -1206,7 +1134,6 @@ footer::before {
     display: inline-flex;
   }
   
-  /* Hero section adjustments */
   .hero {
     padding: 8rem 0 4rem;
   }
@@ -1215,7 +1142,6 @@ footer::before {
     font-size: 2rem;
   }
   
-  /* Stack about section content */
   .about-content {
     grid-template-columns: 1fr;
     gap: 2rem;
@@ -1225,7 +1151,6 @@ footer::before {
     order: -1;
   }
 
-  /* Timeline adjustments for mobile */
   .timeline::before {
     left: 20px;
   }
@@ -1239,7 +1164,6 @@ footer::before {
     left: -10px !important;
   }
   
-  /* Section padding reduction */
   .section {
     padding: 4rem 0;
   }
@@ -1248,7 +1172,6 @@ footer::before {
     font-size: 1.75rem;
   }
   
-  /* Stats grid becomes 2 columns */
   .stats-grid {
     grid-template-columns: 1fr 1fr;
   }
@@ -1257,15 +1180,12 @@ footer::before {
     display: none;
   }
 
-  /* Disable parallax on mobile for better performance */
   .stats {
     background-attachment: scroll;
   }
 }
 
-/* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
-  /* Further reduce hero padding */
   .hero {
     padding: 7rem 0 3rem;
   }
@@ -1274,61 +1194,48 @@ footer::before {
     font-size: 1.75rem;
   }
   
-  /* Stack buttons vertically */
   .hero-buttons {
     flex-direction: column;
     gap: 0.75rem;
   }
   
-  /* Single column stats */
   .stats-grid {
     grid-template-columns: 1fr;
   }
   
-  /* Adjust card padding */
   .feature-card {
     padding: 1.5rem;
   }
   
-  /* Reduce testimonial padding */
   .testimonial {
     padding: 1.5rem;
   }
   
-  /* Simplify contact form */
   .contact-form {
     padding: 1.5rem;
   }
   
-  /* Single column footer */
   .footer-content {
     grid-template-columns: 1fr;
   }
 }
 
-/* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 400px) {
-  /* Further adjustments for very small screens */
   .feature-card {
     padding: 1.25rem;
   }
   
-  /* Smaller team images */
   .team-member img {
     width: 120px;
     height: 120px;
   }
   
-  /* Stack testimonial author info */
   .testimonial-author {
     flex-direction: column;
     text-align: center;
   }
   
-  /* Reduce section padding more */
   .section {
     padding: 3rem 0;
   }
 }
-
-/* Learn More Button */
