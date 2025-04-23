@@ -1,342 +1,780 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Otomate Technologies - Workflow Automation Experts</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@700&display=swap">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Myle Tech Solutions offers intelligent automation solutions using Microsoft Power Platform, Dynamics 365, and Zapier to streamline business operations across East Africa."
+    />
+    <meta
+      name="keywords"
+      content="business automation, Microsoft Power Platform, Power BI, Dynamics 365, Zapier, AI solutions, East Africa"
+    />
+    <meta name="author" content="Myle Tech Solutions" />
+    <title>Myle Tech Solutions - Business Automation Experts</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@700&display=swap"
+    />
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Myle Tech Solutions",
+        "url": "https://www.myletechsolutions.com",
+        "logo": "/images/nmyletech.jpg",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+254-700-000000",
+          "contactType": "Customer Service",
+          "areaServed": "KE",
+          "availableLanguage": "English"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/company/myle-tech-solutions",
+          "https://twitter.com/myletechsolutions"
+        ]
+      }
+    </script>
+  </head>
+  <body>
     <header>
-        <div class="container">
-            <nav>
-                <div class="logo">
-                    <img src="/images/flowforge.jpg" alt="Otomate Technologies Logo" class="logo-image">
-                </div>
-                <h3>Otomate Technologies</h3>
-                <div class="nav-links" id="navLinks">
-                    <a href="#features">Features</a>
-                    <a href="#about">About</a>
-                    <a href="#team">Team</a>
-                    <a href="#contact">Contact</a>
-                    <a href="#contact" class="cta-button mobile-cta">Get Started</a>
-                </div>
-                <a href="#contact" class="cta-button desktop-cta">Get Started</a>
-                <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
-                    <i class="fas fa-bars"></i>
-                </button>
-            </nav>
-        </div>
+      <div class="container">
+        <nav>
+          <div class="logo">
+            <img
+              src="/images/myletech.jpg"
+              alt="Myle Tech Solutions Logo"
+              class="logo-image"
+            />
+          </div>
+          <h3>Myle Tech Solutions</h3>
+          <div
+            class="nav-links"
+            id="navLinks"
+            role="navigation"
+            aria-label="Main navigation"
+          >
+            <a href="#services" aria-current="page">Services</a>
+            <a href="#about">About</a>
+            <a href="#solutions">Solutions</a>
+            <a href="#team">Team</a>
+            <a href="#contact">Contact</a>
+            <a href="#contact" class="cta-button mobile-cta">Get Started</a>
+          </div>
+          <a href="#contact" class="cta-button desktop-cta">Get Started</a>
+          <button
+            class="hamburger"
+            id="hamburger"
+            aria-label="Toggle navigation menu"
+            aria-expanded="false"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+        </nav>
+      </div>
     </header>
 
     <section class="hero section">
-        <div class="hero-background"></div>
-        <div class="container">
-            <h1>Automate Your Workflows with Ease</h1>
-            <p>Otomate Technologies provides cutting-edge automation solutions to streamline your business processes, saving you time and money.</p>
-            <div class="hero-buttons">
-                <a href="#contact" class="cta-button">Request a Demo</a>
-                <a href="#features" class="secondary-button">Learn More</a>
-            </div>
+      <div class="hero-background"></div>
+      <div class="container">
+        <h1>Transform Your Business Through Intelligent Automation</h1>
+        <p>
+          Myle Tech Solutions delivers tailored automation solutions using
+          Microsoft Power Platform, Dynamics 365, and Zapier to streamline
+          operations, reduce costs, and drive growth.
+        </p>
+        <div class="hero-buttons">
+          <a href="#contact" class="cta-button">Request a Demo</a>
+          <a href="#services" class="secondary-button">Explore Solutions</a>
         </div>
+      </div>
     </section>
 
-    <section class="features section" id="features">
-        <div class="container">
-            <div class="section-title">
-                <h2>Powerful Features</h2>
-                <p>Our platform offers everything you need to automate repetitive tasks and focus on what matters most.</p>
-            </div>
-            <div class="features-grid">
-                <div class="feature-card">
-                    <div class="feature-icon"><i class="fas fa-bolt"></i></div>
-                    <h3>Process Automation</h3>
-                    <p>Automate repetitive tasks with intuitive Power Automate, Zapier, Make.com, N8N.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon"><i class="fas fa-robot"></i></div>
-                    <h3>AI Integration</h3>
-                    <p>Use Copilot Studio to leverage artificial intelligence to make smart decisions and optimize your workflows.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon"><i class="fas fa-chart-bar"></i></div>
-                    <h3>Analytics Dashboard</h3>
-                    <p>Track performance with Power BI and identify bottlenecks with comprehensive analytics tools like Tableau.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon"><i class="fas fa-link"></i></div>
-                    <h3>Third-Party Integrations</h3>
-                    <p>Connect with all your favorite tools like Slack, Google Workspace, and Microsoft 365.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon"><i class="fas fa-lock"></i></div>
-                    <h3>Payroll</h3>
-                    <p>Bank-grade security to protect your data with role-based access control.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon"><i class="fas fa-globe"></i></div>
-                    <h3>Global Support</h3>
-                    <p>24/7 support to ensure your automation runs smoothly around the clock.</p>
-                </div>
-            </div>
+    <section class="services section" id="services">
+      <div class="container">
+        <div class="section-title">
+          <h2>Our Services</h2>
+          <p>
+            Comprehensive automation solutions using leading technology
+            platforms to transform your business operations.
+          </p>
         </div>
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon"><i class="fas fa-cogs"></i></div>
+            <h3>Process Automation</h3>
+            <p>
+              Streamline workflows with Power Automate, Zapier, and custom
+              solutions tailored to your business needs.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon"><i class="fas fa-robot"></i></div>
+            <h3>AI & Virtual Assistants</h3>
+            <p>
+              Deploy intelligent chatbots and virtual assistants using Microsoft
+              Copilot Studio to enhance customer service.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon"><i class="fas fa-chart-line"></i></div>
+            <h3>Business Intelligence</h3>
+            <p>
+              Transform data into actionable insights with Power BI dashboards
+              and comprehensive analytics solutions.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon"><i class="fas fa-cubes"></i></div>
+            <h3>Custom App Development</h3>
+            <p>
+              Build tailored business applications with Power Apps to digitize
+              operations and enhance productivity.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon"><i class="fas fa-sync-alt"></i></div>
+            <h3>System Integration</h3>
+            <p>
+              Connect disparate systems seamlessly using integration platforms
+              like Zapier, Thoughtly, and Power Automate.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon"><i class="fas fa-users-cog"></i></div>
+            <h3>Dynamics 365 Solutions</h3>
+            <p>
+              Implement and customize Microsoft Dynamics 365 for comprehensive
+              business management capabilities.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="about section" id="about">
-        <div class="container">
-            <div class="about-content">
-                <div class="about-image">
-                    <img src="/images/flowforge1.jpg" alt="Team working on automation" loading="lazy">
+      <div class="container">
+        <div class="about-content">
+          <div class="about-image">
+            <img
+              src="/images/nmyletech.jpg"
+              alt="Team working on automation solutions"
+              loading="lazy"
+            />
+          </div>
+          <div class="about-text">
+            <h2>Our Journey</h2>
+            <div class="timeline">
+              <div class="timeline-item">
+                <div class="timeline-content">
+                  <h3>The Vision</h3>
+                  <p>
+                    Founded by technology experts with a mission to democratize
+                    automation and AI for businesses of all sizes.
+                  </p>
                 </div>
-                <div class="about-text">
-                    <h2>Our Journey</h2>
-                    <div class="timeline">
-                        <div class="timeline-item">
-                            <div class="timeline-content">
-                                <h3>February - The Spark</h3>
-                                <p>We met as interns, united by a passion for automation and a frustration with poor leadership.</p>
-                            </div>
-                        </div>
-                        <div class="timeline-item">
-                            <div class="timeline-content">
-                                <h3>March - Founding Otomate Technologies</h3>
-                                <p>We took the leap, founding Otomate Technologies to build smarter automation solutions.</p>
-                            </div>
-                        </div>
-                        <div class="timeline-item">
-                            <div class="timeline-content">
-                                <h3>April - First Major Client</h3>
-                                <p>Secured our first major client, saving them 500+ hours annually.</p>
-                            </div>
-                        </div>
-                        <div class="timeline-item">
-                            <div class="timeline-content">
-                                <h3>Goals - Global Expansion</h3>
-                                <p>Expanded to atleast 12 countries, serving 150+ happy clients.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <a href="#team" class="cta-button">Meet Our Team</a>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-content">
+                  <h3>Building Myle Tech Solutions</h3>
+                  <p>
+                    Assembled a team of certified Microsoft and automation
+                    specialists to deliver transformative solutions.
+                  </p>
                 </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-content">
+                  <h3>First Enterprise Client</h3>
+                  <p>
+                    Implemented comprehensive automation that reduced
+                    operational costs by 35% and saved 750+ hours annually.
+                  </p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-content">
+                  <h3>The Road Ahead</h3>
+                  <p>
+                    Building specialized solutions for key industries across
+                    East Africa, driving digital transformation.
+                  </p>
+                </div>
+              </div>
             </div>
+            <a href="#team" class="cta-button">Meet Our Team</a>
+          </div>
         </div>
+      </div>
+    </section>
+
+    <section class="solutions section" id="solutions">
+      <div class="container">
+        <div class="section-title">
+          <h2>Industry Solutions</h2>
+          <p>
+            Specialized automation solutions tailored to the unique needs of
+            diverse industry sectors.
+          </p>
+        </div>
+        <div class="solutions-grid">
+          <div class="solution-card">
+            <div class="solution-icon">
+              <i class="fas fa-hands-helping"></i>
+            </div>
+            <h3>NGOs</h3>
+            <p>
+              Donor management systems, impact tracking, and program automation
+              solutions that maximize efficiency and transparency.
+            </p>
+          </div>
+          <div class="solution-card">
+            <div class="solution-icon"><i class="fas fa-university"></i></div>
+            <h3>Education</h3>
+            <p>
+              Student management, administrative automation, and learning
+              analytics for schools, colleges, and universities.
+            </p>
+          </div>
+          <div class="solution-card">
+            <div class="solution-icon"><i class="fas fa-heartbeat"></i></div>
+            <h3>Healthcare</h3>
+            <p>
+              Patient management workflows, inventory systems, and operational
+              automation for hospitals and clinics.
+            </p>
+          </div>
+          <div class="solution-card">
+            <div class="solution-icon"><i class="fas fa-bus"></i></div>
+            <h3>Transportation</h3>
+            <p>
+              Fleet management, route optimization, and maintenance scheduling
+              for transportation companies.
+            </p>
+          </div>
+          <div class="solution-card">
+            <div class="solution-icon">
+              <i class="fas fa-plane-departure"></i>
+            </div>
+            <h3>Travel & Tourism</h3>
+            <p>
+              Booking systems, customer journey automation, and operational
+              efficiency solutions for tour operators.
+            </p>
+          </div>
+          <div class="solution-card">
+            <div class="solution-icon"><i class="fas fa-seedling"></i></div>
+            <h3>Agriculture</h3>
+            <p>
+              Supply chain management, resource planning, and yield forecasting
+              solutions for agricultural enterprises.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="tech-stack section">
+      <div class="container">
+        <div class="section-title">
+          <h2>Our Technology Stack</h2>
+          <p>
+            We leverage industry-leading platforms to deliver powerful
+            automation solutions.
+          </p>
+        </div>
+        <div class="tech-logos">
+          <div class="tech-logo">
+            <img
+              src="/images/power-platform.jpeg"
+              alt="Microsoft Power Platform"
+              loading="lazy"
+            />
+            <p>Power Platform</p>
+          </div>
+          <div class="tech-logo">
+            <img
+              src="/images/power-bi.png"
+              alt="Power BI"
+              loading="lazy"
+            />
+            <p>Power BI</p>
+          </div>
+          <div class="tech-logo">
+            <img
+              src="/images/power-automate.png"
+              alt="Power Automate"
+              loading="lazy"
+            />
+            <p>Power Automate</p>
+          </div>
+          <div class="tech-logo">
+            <img
+              src="/images/copilot-studio.jpeg"
+              alt="Copilot Studio"
+              loading="lazy"
+            />
+            <p>Copilot Studio</p>
+          </div>
+          <div class="tech-logo">
+            <img
+              src="/images/dynamics.jpg"
+              alt="Dynamics 365"
+              loading="lazy"
+            />
+            <p>Dynamics 365</p>
+          </div>
+          <div class="tech-logo">
+            <img src="/images/zapier.png" alt="Zapier" loading="lazy" />
+            <p>Zapier</p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="stats section">
-        <div class="container">
-            <div class="stats-grid">
-                <div class="stat-card">
-                    <div class="stat-icon"><i class="fas fa-users"></i></div>
-                    <div class="stat-number" id="clientsCount">0</div>
-                    <div class="stat-label">Happy Clients</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-icon"><i class="fas fa-project-diagram"></i></div>
-                    <div class="stat-number" id="projectsCount">0</div>
-                    <div class="stat-label">Projects Completed</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-icon"><i class="fas fa-clock"></i></div>
-                    <div class="stat-number" id="hoursCount">0</div>
-                    <div class="stat-label">Hours Saved</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-icon"><i class="fas fa-globe"></i></div>
-                    <div class="stat-number" id="countriesCount">0</div>
-                    <div class="stat-label">Countries</div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-icon"><i class="fas fa-users"></i></div>
+            <div class="stat-number" id="clientsCount">0</div>
+            <div class="stat-label">Clients Served</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon"><i class="fas fa-project-diagram"></i></div>
+            <div class="stat-number" id="projectsCount">0</div>
+            <div class="stat-label">Projects Completed</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon"><i class="fas fa-clock"></i></div>
+            <div class="stat-number" id="hoursCount">0</div>
+            <div class="stat-label">Hours Saved Monthly</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon"><i class="fas fa-percentage"></i></div>
+            <div class="stat-number" id="efficiencyCount">0</div>
+            <div class="stat-label">Avg. Efficiency Gain</div>
+          </div>
         </div>
+      </div>
     </section>
 
     <section class="team section" id="team">
-        <div class="container">
-            <div class="section-title">
-                <h2>Our Team</h2>
-                <p>The brilliant minds behind Otomate Technologies's innovative solutions</p>
-            </div>
-            <div class="team-grid">
-                <div class="team-member" data-role="Co-Founder & CEO">
-                    <img src="/images/ng.jpeg" alt="Girishom Ngoze" loading="lazy">
-                    <h3>Girishom Ngoze</h3>
-                    <p>Co-Founder & CEO</p>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                    </div>
-                </div>
-                <div class="team-member" data-role="Co-Founder & CTO">
-                    <img src="/images/kt.jpeg" alt="Tertius Kabugi" loading="lazy">
-                    <h3>Tertius Kabugi</h3>
-                    <p>Co-Founder & CTO</p>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                    </div>
-                </div>
-                <div class="team-member" data-role="Co-Founder & COO">
-                    <img src="/images/wg.jpeg" alt="Grace Wanjiku" loading="lazy">
-                    <h3>Grace Wanjiku</h3>
-                    <p>Co-Founder & COO</p>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                    </div>
-                </div>
-                <div class="team-member" data-role="Co-Founder & CPO">
-                    <img src="/images/im.png" alt="Ian Mugambi" loading="lazy">
-                    <h3>Ian Mugambi</h3>
-                    <p>Co-Founder & CPO</p>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="section-title">
+          <h2>Our Team</h2>
+          <p>
+            Meet the experts behind Myle Tech Solutions' innovative automation
+            services.
+          </p>
         </div>
+        <div class="team-grid">
+          <div class="team-member" data-role="Co-Founder & CEO">
+            <img
+              src="/images/ng.jpeg"
+              alt="Girishom Ngoze, Co-Founder & CEO"
+              loading="lazy"
+            />
+            <h3>Girishom Ngoze</h3>
+            <p>Co-Founder & CEO</p>
+            <div class="social-links">
+              <a
+                href="https://linkedin.com/in/girishom-ngoze"
+                aria-label="Girishom Ngoze's LinkedIn"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a
+                href="https://twitter.com/girishomngoze"
+                aria-label="Girishom Ngoze's Twitter"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </div>
+          </div>
+          <div class="team-member" data-role="Co-Founder & CTO">
+            <img
+              src="/images/kt.jpeg"
+              alt="Tertius Kabugi, Co-Founder & CTO"
+              loading="lazy"
+            />
+            <h3>Tertius Kabugi</h3>
+            <p>Co-Founder & CTO</p>
+            <div class="social-links">
+              <a
+                href="https://linkedin.com/in/tertius-kabugi"
+                aria-label="Tertius Kabugi's LinkedIn"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a
+                href="https://twitter.com/tertiuskabugi"
+                aria-label="Tertius Kabugi's Twitter"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </div>
+          </div>
+          <div class="team-member" data-role="Co-Founder & COO">
+            <img
+              src="/images/wg.jpeg"
+              alt="Grace Wanjiku, Co-Founder & COO"
+              loading="lazy"
+            />
+            <h3>Grace Wanjiku</h3>
+            <p>Co-Founder & COO</p>
+            <div class="social-links">
+              <a
+                href="https://linkedin.com/in/grace-wanjiku"
+                aria-label="Grace Wanjiku's LinkedIn"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a
+                href="https://twitter.com/gracewanjiku"
+                aria-label="Grace Wanjiku's Twitter"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </div>
+          </div>
+          <div class="team-member" data-role="Co-Founder & CPO">
+            <img
+              src="/images/im.png"
+              alt="Ian Mugambi, Co-Founder & CPO"
+              loading="lazy"
+            />
+            <h3>Ian Mugambi</h3>
+            <p>Co-Founder & CPO</p>
+            <div class="social-links">
+              <a
+                href="https://linkedin.com/in/ian-mugambi"
+                aria-label="Ian Mugambi's LinkedIn"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a
+                href="https://twitter.com/ianmugambi"
+                aria-label="Ian Mugambi's Twitter"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="case-studies section">
+      <div class="container">
+        <div class="section-title">
+          <h2>Success Stories</h2>
+          <p>Real results from our automation implementations.</p>
+        </div>
+        <div class="case-studies-grid">
+          <div class="case-study">
+            <div class="solution-icon">
+                <i class="fas fa-hands-helping"></i>
+              </div>
+            <div class="case-content">
+              <h3>International NGO</h3>
+              <p class="case-metric">
+                85% reduction in administrative overhead
+              </p>
+              <p>
+                Automated donor management and reporting processes using Power
+                Platform and Dynamics 365, freeing staff to focus on program
+                delivery.
+              </p>
+            </div>
+          </div>
+          <div class="case-study">
+            <div class="solution-icon"><i class="fas fa-university"></i></div>
+            <div class="case-content">
+              <h3>Private University</h3>
+              <p class="case-metric">50% faster student services</p>
+              <p>
+                Implemented end-to-end student management automation with
+                AI-powered chatbots for inquiries, improving student experience
+                dramatically.
+              </p>
+            </div>
+          </div>
+          <div class="case-study">
+            <div class="solution-icon"><i class="fas fa-seedling"></i></div>
+            <div class="case-content">
+              <h3>Agricultural Cooperative</h3>
+              <p class="case-metric">30% increase in operational efficiency</p>
+              <p>
+                Developed supply chain tracking and inventory management system
+                using Power Apps and Power BI, providing real-time visibility
+                across operations.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="testimonials section">
-        <div class="container">
-            <div class="section-title">
-                <h2>What Our Clients Say</h2>
-                <p>Don't just take our word for it - hear from our satisfied customers</p>
-            </div>
-            <div class="testimonials-slider">
-                <div class="testimonial active">
-                    <div class="testimonial-content">
-                        <p>"Otomate Technologies transformed our operations. We've saved over 200 hours per month on repetitive tasks!"</p>
-                        <div class="testimonial-author">
-                            <img src="https://randomuser.me/api/portraits/women/63.jpg" alt="Sarah Johnson" loading="lazy">
-                            <div>
-                                <h4>Sarah Johnson</h4>
-                                <p>CEO, TechSolutions Ltd</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial">
-                    <div class="testimonial-content">
-                        <p>"The best automation platform we've used. The support team is exceptional and always available."</p>
-                        <div class="testimonial-author">
-                            <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="David Kimani" loading="lazy">
-                            <div>
-                                <h4>David Kimani</h4>
-                                <p>Operations Manager, GreenFarm Africa</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial">
-                    <div class="testimonial-content">
-                        <p>"Implementing Otomate Technologies was the best business decision we made last year. ROI in just 3 months."</p>
-                        <div class="testimonial-author">
-                            <img src="https://randomuser.me/api/portraits/women/28.jpg" alt="Amina Mohamed" loading="lazy">
-                            <div>
-                                <h4>Amina Mohamed</h4>
-                                <p>Director, East Africa Logistics</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="slider-controls">
-                    <button class="slider-prev" aria-label="Previous testimonial"><i class="fas fa-chevron-left"></i></button>
-                    <div class="slider-dots"></div>
-                    <button class="slider-next" aria-label="Next testimonial"><i class="fas fa-chevron-right"></i></button>
-                </div>
-            </div>
+      <div class="container">
+        <div class="section-title">
+          <h2>What Our Clients Say</h2>
+          <p>
+            Hear from organizations that have transformed their operations with
+            our solutions.
+          </p>
         </div>
+        <div class="testimonials-slider">
+          <div class="testimonial active">
+            <div class="testimonial-content">
+              <p>
+                "Myle Tech Solutions transformed our operations with Power
+                Automate. We've saved over 250 hours monthly on repetitive
+                tasks, allowing our team to focus on strategic initiatives."
+              </p>
+              <div class="testimonial-author">
+                <img
+                  src="/images/testimonials/testimonial1.jpg"
+                  alt="Sarah Johnson, Operations Director"
+                  loading="lazy"
+                />
+                <div>
+                  <h4>Sarah Johnson</h4>
+                  <p>Operations Director, EduTech Kenya</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial">
+            <div class="testimonial-content">
+              <p>
+                "The Copilot Studio chatbot developed by Myle Tech has
+                revolutionized our customer service. Response times dropped from
+                hours to seconds, and our team can focus on complex cases."
+              </p>
+              <div class="testimonial-author">
+                <img
+                  src="/images/testimonials/testimonial2.jpg"
+                  alt="David Kimani, IT Manager"
+                  loading="lazy"
+                />
+                <div>
+                  <h4>David Kimani</h4>
+                  <p>IT Manager, GreenFarm Africa</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial">
+            <div class="testimonial-content">
+              <p>
+                "Implementing Power BI dashboards with Myle Tech was the best
+                investment we made last year. We now have real-time visibility
+                into our operations across three countries."
+              </p>
+              <div class="testimonial-author">
+                <img
+                  src="/images/testimonials/testimonial3.jpg"
+                  alt="Amina Mohamed, CEO"
+                  loading="lazy"
+                />
+                <div>
+                  <h4>Amina Mohamed</h4>
+                  <p>CEO, East Africa Logistics</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slider-controls">
+            <button class="slider-prev" aria-label="Previous testimonial">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <div class="slider-dots"></div>
+            <button class="slider-next" aria-label="Next testimonial">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="contact section" id="contact">
-        <div class="container">
-            <div class="section-title">
-                <h2>Get In Touch</h2>
-                <p>Ready to automate your workflows? Contact us today for a free consultation.</p>
-            </div>
-            <form id="contactForm" class="contact-form">
-                <div class="form-group">
-                    <input type="text" id="name" required placeholder=" ">
-                    <label for="name">Name</label>
-                </div>
-                <div class="form-group">
-                    <input type="email" id="email" required placeholder=" ">
-                    <label for="email">Email</label>
-                </div>
-                <div class="form-group">
-                    <input type="text" id="company" placeholder=" ">
-                    <label for="company">Company</label>
-                </div>
-                <div class="form-group">
-                    <textarea id="message" rows="5" required placeholder=" "></textarea>
-                    <label for="message">Message</label>
-                </div>
-                <button type="submit" class="submit-button cta-button">Send Message</button>
-            </form>
-            <div id="formSuccess" class="form-success">
-                <i class="fas fa-check-circle"></i>
-                <p>Thank you for your message! We'll get back to you soon.</p>
-            </div>
+      <div class="container">
+        <div class="section-title">
+          <h2>Get In Touch</h2>
+          <p>
+            Ready to transform your operations through intelligent automation?
+            Contact us today for a free consultation.
+          </p>
         </div>
+        <form id="contactForm" class="contact-form" novalidate>
+          <div class="form-group">
+            <input
+              type="text"
+              id="name"
+              required
+              placeholder=" "
+              aria-required="true"
+            />
+            <label for="name">Name</label>
+            <span class="error-message" aria-live="polite"></span>
+          </div>
+          <div class="form-group">
+            <input
+              type="email"
+              id="email"
+              required
+              placeholder=" "
+              aria-required="true"
+            />
+            <label for="email">Email</label>
+            <span class="error-message" aria-live="polite"></span>
+          </div>
+          <div class="form-group">
+            <input type="text" id="company" placeholder=" " />
+            <label for="company">Organization</label>
+          </div>
+          <div class="form-group">
+            <select id="interest" required aria-required="true">
+              <option value="" disabled selected>
+                Select Area of Interest
+              </option>
+              <option value="process-automation">Process Automation</option>
+              <option value="power-bi">Power BI & Analytics</option>
+              <option value="copilot">AI & Copilot Studio</option>
+              <option value="app-development">Custom App Development</option>
+              <option value="dynamics">Dynamics 365</option>
+              <option value="other">Other Services</option>
+            </select>
+            <span class="error-message" aria-live="polite"></span>
+          </div>
+          <div class="form-group">
+            <textarea
+              id="message"
+              rows="5"
+              required
+              placeholder=" "
+              aria-required="true"
+            ></textarea>
+            <label for="message">How can we help?</label>
+            <span class="error-message" aria-live="polite"></span>
+          </div>
+          <button type="submit" class="submit-button cta-button">
+            Request Consultation
+          </button>
+        </form>
+        <div id="formSuccess" class="form-success">
+          <i class="fas fa-check-circle"></i>
+          <p>
+            Thank you for your message! Our team will contact you within 24
+            hours to discuss your automation needs.
+          </p>
+        </div>
+      </div>
     </section>
 
     <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-column">
-                    <h3>Otomate Technologies</h3>
-                    <p>Workflow automation solutions for the modern business.</p>
-                    <div class="footer-social">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-                <div class="footer-column">
-                    <h3>Quick Links</h3>
-                    <ul>
-                        <li><a href="#features">Features</a></li>
-                        <li><a href="#about">About Us</a></li>
-                        <li><a href="#team">Our Team</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h3>Services</h3>
-                    <ul>
-                        <li><a href="#">Process Automation</a></li>
-                        <li><a href="#">Custom Solutions</a></li>
-                        <li><a href="#">Consulting</a></li>
-                        <li><a href="#">Training</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h3>Contact Us</h3>
-                    <ul>
-                        <li><i class="fas fa-map-marker-alt"></i> Nairobi, Kenya</li>
-                        <li><i class="fas fa-envelope"></i> <a href="mailto:info@flowforge.com">info@otomatetechnologies.com</a></li>
-                        <li><i class="fas fa-phone"></i> +254 700 000000</li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h3>Stay Updated</h3>
-                    <form class="newsletter-form">
-                        <input type="email" placeholder="Enter your email" required>
-                        <button type="submit" class="btn btn-primary">Subscribe</button>
-                    </form>
-                </div>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-column">
+            <h3>Myle Tech Solutions</h3>
+            <p>Transforming businesses through intelligent automation.</p>
+            <div class="footer-social">
+              <a
+                href="https://facebook.com/myletechsolutions"
+                aria-label="Myle Tech Solutions on Facebook"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a
+                href="https://twitter.com/myletechsolutions"
+                aria-label="Myle Tech Solutions on Twitter"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a
+                href="https://linkedin.com/company/myle-tech-solutions"
+                aria-label="Myle Tech Solutions on LinkedIn"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a
+                href="https://instagram.com/myletechsolutions"
+                aria-label="Myle Tech Solutions on Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
             </div>
-            <div class="copyright">Otomate Technologies
-                <p>&copy; <span id="currentYear"></span> . All rights reserved.</p>
-            </div>
+          </div>
+          <div class="footer-column">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#solutions">Solutions</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#team">Our Team</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Technologies</h3>
+            <ul>
+              <li><a href="#">Power Platform</a></li>
+              <li><a href="#">Dynamics 365</a></li>
+              <li><a href="#">Copilot Studio</a></li>
+              <li><a href="#">Power BI</a></li>
+              <li><a href="#">Zapier & Integrations</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Contact Us</h3>
+            <ul>
+              <li><i class="fas fa-map-marker-alt"></i> Nairobi, Kenya</li>
+              <li>
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:info@myletechsolutions.com"
+                  >info@myletechsolutions.com</a
+                >
+              </li>
+              <li><i class="fas fa-phone"></i> +254 700 000000</li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Stay Updated</h3>
+            <form id="newsletterForm" class="newsletter-form" novalidate>
+              <input
+                type="email"
+                id="newsletterEmail"
+                placeholder="Enter your email"
+                required
+                aria-required="true"
+              />
+              <button type="submit" class="btn btn-primary">Subscribe</button>
+              <span
+                id="newsletterSuccess"
+                class="form-success"
+                style="display: none"
+              >
+                <i class="fas fa-check-circle"></i> Subscribed successfully!
+              </span>
+              <span
+                id="newsletterError"
+                class="error-message"
+                aria-live="polite"
+              ></span>
+            </form>
+          </div>
         </div>
+        <div class="copyright">
+          <p>
+            &copy; <span id="currentYear"></span> Myle Tech Solutions. All
+            rights reserved.
+          </p>
+        </div>
+      </div>
     </footer>
 
-    <button class="back-to-top" id="backToTop"><i class="fas fa-arrow-up"></i></button>
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
